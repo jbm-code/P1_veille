@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+  body {
+    text-align: center;
+    align-items: center;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  a:visited {
+  color: black
+
+  }
+  section {
+    display: grid;
+    justify-items: normal;
+    align-items: center;
+    
+    padding: 5px; 
+    align-items: space-between;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    background-color: rgb(236, 195, 195);
+    color: black;
+    border-radius: 5px;
+    border-style: solid;
+  }
+  aside {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    row-gap: 5px;
+    grid-template-rows: repeat(3 1fr);
+    color: black;
+  }
+  .button {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: dark;
+    width: 400px;
+    height: 50px;
+    background-color: darkgray;
+    padding: 5px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    text-decoration-color: dark;
+  }
+  .button:hover {
+    transform: skew( -10deg);
+    background-image: url("background_button.jfif");
+  }
+  #img1 {
+    width: 35%;
+    padding: 10px;
+  }
+  #img2 {
+    width: 25%;
+    padding: 10px;
+  }
+  #img3 {
+    width: 50%;
+    padding: 10px;
+  }
+  #img4 {
+    width: 50%;
+    padding: 10px;
+  }
+  #img5 {
+    width: 20%;
+    padding: 10px;
+  }
+  #img6 {
+    width: 40%;
+    padding: 10px;
+  }
+  #img7 {
+    width: 30%;
+    padding: 10px;
+  }
+  #img8 {
+    width: 40%;
+    padding: 10px;
+  }
+  #img9 {
+    width: 30%;
+    padding: 10px;
+  }
+  .logo {
+    width: 80%;
+  }
+  .title {
+    padding: 1px;
+    color: dark;
+  }
